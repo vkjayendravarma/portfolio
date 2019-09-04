@@ -1,0 +1,74 @@
+<div class="container-fluid parent">
+  <div class="close" [routerLink]="['/']">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+      y="0px" viewBox="0 0 612.043 612.043" style="enable-background:new 0 0 612.043 612.043;" xml:space="preserve"
+      class="closeimg">
+      <g>
+        <g>
+          <g id="cross">
+            <g>
+              <path
+                d="M397.503,306.011l195.577-195.577c25.27-25.269,25.27-66.213,0-91.482c-25.269-25.269-66.213-25.269-91.481,0     L306.022,214.551L110.445,18.974c-25.269-25.269-66.213-25.269-91.482,0s-25.269,66.213,0,91.482L214.54,306.033L18.963,501.61     c-25.269,25.269-25.269,66.213,0,91.481c25.269,25.27,66.213,25.27,91.482,0l195.577-195.576l195.577,195.576     c25.269,25.27,66.213,25.27,91.481,0c25.27-25.269,25.27-66.213,0-91.481L397.503,306.011z"
+                data-original="#000000" class="active-path" data-old_color="#000000" fill="#CFCCCC" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div class="container">
+    <div class="content">
+      <div class="whoami section">
+        <h1 class="sectionheading">Who am I?</h1>
+        <p class="sectioncontent">I am a senior year student doing my bachelors in computer science
+          and engineering in GITAM (deemed to be University), Visakhapatnam.</p>
+      </div>
+      <div class="whatdoido section">
+        <h1 class="sectionheading">What do I do?</h1>
+        <p class="sectioncontent">I am a freelance web developer worked for <a href="http://gcied.gitam.edu/"
+            target="_blank" class="workedatwebsite">GCIED</a>, <a href="https://acmgitam.com/" class="workedatwebsite" target="_blank">ACM
+            GITAM chapter</a> and currently working for <a href="https://www.fountane.com/" class="workedatwebsite" target="_blank">Fountane Makerspace Pvt.
+            Ltd.</a> My technology stack is
+          mainly composed of (but not limited to) Javascript(ES5, ES6), TypeScript and Angular. A detailed outlook of my
+          skillset is.</p>
+      </div>
+      <div class="skillset section">
+        <h2 class="skillsetTitle">Professional:</h2>
+        <ul class="sectioncontent">
+          <li><b>Client-side Web Development technology:</b> HTML5, CSS3, SCSS, JavaScript (ES5), TypeScript.</li>
+          <li><b>Javascript Libraries and Frameworks:</b> jQuery, Angular</li>
+          <li><b>Content Management Systems:</b> WordPress</li>
+          <li><b>Other:</b> Git</li>
+        </ul>
+        <h2 class="skillsetTitle">Familiar:</h2>
+        <ul class="sectioncontent">
+          <li><b>Programming languages:</b> C/C++</li>
+          <li><b>Operating systems:</b> Linux( Ubuntu ), Windows </li>
+          <li><b>Cloud:</b> Google Cloude Platform</li>
+          <li><b>Design Tools:</b> Adobe XD, Adobe Photoshop</li>
+        </ul>
+      </div>
+      <div class="nav section">
+        <div class="row">
+          <div class="col-md-5" >
+            <a (click)="downloadResume()"><button type="button" class="btn btn-primary  Download ">Download
+                Resume</button></a><br>
+          </div>
+          <div class="col-md-3" >
+            <a [routerLink]="['/contactme']" routerLinkActive="router-link-active"><button type="button"
+                class="btn btn-primary contact">Contact me</button></a>
+          </div>
+
+        </div>
+
+
+      </div>
+      <app-footer></app-footer>
+      
+    </div>
+
+  </div>
+
+
+
+</div>

@@ -1,0 +1,74 @@
+<div class="container-fluid">
+  <div class="close" [routerLink]="['/']">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+      y="0px" viewBox="0 0 612.043 612.043" style="enable-background:new 0 0 612.043 612.043;" xml:space="preserve"
+      class="closeimg">
+      <g>
+        <g>
+          <g id="cross">
+            <g>
+              <path
+                d="M397.503,306.011l195.577-195.577c25.27-25.269,25.27-66.213,0-91.482c-25.269-25.269-66.213-25.269-91.481,0     L306.022,214.551L110.445,18.974c-25.269-25.269-66.213-25.269-91.482,0s-25.269,66.213,0,91.482L214.54,306.033L18.963,501.61     c-25.269,25.269-25.269,66.213,0,91.481c25.269,25.27,66.213,25.27,91.482,0l195.577-195.576l195.577,195.576     c25.269,25.27,66.213,25.27,91.481,0c25.27-25.269,25.27-66.213,0-91.481L397.503,306.011z"
+                data-original="#000000" class="active-path" data-old_color="#000000" fill="#CFCCCC" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <div class="container">
+    <div class="contact">
+      <h1 class="sectionheading">Contact</h1>
+
+      <div class="emailcontact">
+        <p class="bold subtitle">I am also available on </p>
+        <p class="bold">e-Mail: <a href="mailto:vkjayendravarma@gmail.com" class="mailto">vkjayendravarma@gmail.com</a>
+        </p>
+      </div>
+      <div class="dropmessage">
+        <h2 class="subtitle">Or drop me a message</h2>
+        <p class="content">and I will get back to you at the earliest.</p>
+
+        <form action="" method="POST" role="form" class="form">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" name="Name" class="form-control" id="name" placeholder="Input field" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="">Mobile</label>
+                <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Input field" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">Email</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="Input field" required>
+          </div>
+
+          <div class="form-group">
+            <label for="">Message</label>
+            <textarea name="message" id="message" class="form-control" cols="15" rows="10" placeholder="Input field"
+              required></textarea>
+          </div>
+
+          <div class="submit" align="left">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+
+
+        </form>
+        <div class="footer" align="left">
+            <app-footer></app-footer>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</div>
