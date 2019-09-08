@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: "footer",
     component: FooterComponent
+  },
+  {
+    path:"**",
+    component: HomeComponent
   }
  
 ];
